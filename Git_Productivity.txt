@@ -1,0 +1,8 @@
+
+Why GitHub is good.
+
+Git can improve the productivity by centralizing all your code.
+Docker increases productivity and competitiveness by allowing you to make presets that are faster and easier to use.
+Automated testing improves competitiveness by constantly testing your code for errors riding you of them.
+Continuous integration allows for better productivity by making it easier to find the snippet of code that causes an issue.  
+
