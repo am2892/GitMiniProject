@@ -1,0 +1,28 @@
+Questions to answer: What is it? Why do you do it? How do you do it?
+1.	cd : the cd command allows the user to move up in the directory, You would use the command to change directories so that you can use different files
+2.	mkdir : the mkdir command makes a new directors, You would use this command to help label different parts
+3.	cp : the cp command copies files, You would use this if you wanted to make changes while also keeping the current version 
+4.	pwd : the pwd command shows the current directory, you would do this to find out where you are in the computer
+5.	ls : the ls command lets you see the different files and directory in a location, You would use this command to see what are the files that you can access in the directory you are in
+6.	mv : the mv command can be used to move files, you wold use this if you needed your files to be somewhere else
+7.	rm : the rm command can be used to delete files. You would use this if you dont want to have a file anymore
+8.	history : the history command will show all your pass inputs in the terminal. You would use this command to show someone what you did.
+9.	Home directory and ~ : the ~ is short hand for the Home directory. You can also use the ~ to find the home directory
+10.	file paths in linux : are the same as they are in windows 
+11.	Using the tab key to complete file paths : using tab can help you type faster because it helps to finish long lines 
+12.	Using up and down arrow for history : using the up and down arrow keys can be used when you have to use the same line of code over and over again 
+
+You must explain the gitFlow (https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow and have a section to define and give examples of how to use the following Git commands and terminology:
+1.	Repository : is the place were the code is stored in github
+2.	Clone : is what you do when you want to copy code from the repository to another machine
+3.	Fork : is when you create and new Branch
+4.	Branch : is were you separate code from the live version 
+5.	Commit : is used when you want to add something  to your code 
+6.	Merge : lets you put the code from your branch to the master branch
+7.	Checkout : is used when you want to see older versions of your code
+8.	Push : lets you  put code on  a branch
+9.	Pull : lets you get code from a branch
+10.	Remote Add / Remove / Show : you use these command to interact with the repository 
+11.	Status : let you see whats going on.
+12.	Master Branch : this is were the live code goes
+
