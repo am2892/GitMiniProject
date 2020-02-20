@@ -1,1 +1,4 @@
 # GitMiniProject
+
+Alejandro Lozada
+
