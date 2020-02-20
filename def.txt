@@ -1,5 +1,9 @@
 Questions to answer: What is it? Why do you do it? How do you do it?
 1.	cd : the cd command allows the user to move up in the directory, You would use the command to change directories so that you can use different files
+	EXAMPLE: current directory - /home/user/IS601/assignments
+	change directory to IS601: "cd .."
+	change directory to user: "cd ../user/"
+
 2.	mkdir : the mkdir command makes a new directors, You would use this command to help label different parts
 3.	cp : the cp command copies files, You would use this if you wanted to make changes while also keeping the current version 
 4.	pwd : the pwd command shows the current directory, you would do this to find out where you are in the computer
