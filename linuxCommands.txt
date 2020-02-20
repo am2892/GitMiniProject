@@ -1,5 +1,8 @@
 Linux Commands: Definitions and Examples
-1.
+1. cd - "change directory" - the cd command allows the user to move up in the directory, You would use the command to change directories so that you can use different files
+	EXAMPLE: current directory - /home/user/IS601/assignments
+	change directory to IS601: "cd .."
+	change directory to user: "cd ../user/"
 2.
 3.
 4.
