@@ -3,14 +3,27 @@ Linux Commands: Definitions and Examples
 	EXAMPLE: current directory - /home/user/IS601/assignments
 	change directory to IS601: "cd .."
 	change directory to user: "cd ../user/"
-2.
+
+2. mkdir - "make directory" - the mkdir command makes a new directors, You would use this command to help label different parts
+	EXAMPLE: current directory - /home/user/IS601/assignments
+        make new directory in IS601/assignments: "mkdir Project1"
+
 3.
+
 4.
+
 5.
+
 6.
+
 7.
+
 8.
+
 9.
+
 10.
+
 11.
+
 12.
