@@ -29,4 +29,8 @@ Git checkout <branch_name>
 To push files to the master branch use
 Git push -u origin master
 
+9.	Pull : lets you get code from a branch
+To get files from another branch use
+git pull <branch_url> master
+
 
