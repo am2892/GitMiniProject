@@ -37,4 +37,8 @@ git pull <branch_url> master
 Show git were to push and pull files with 
 git remote add origin <branch_url>.git
 
+11.	Status : let you see whats going on.
+To see your status use
+git status
+
 
