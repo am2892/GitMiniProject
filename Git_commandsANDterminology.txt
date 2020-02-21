@@ -25,4 +25,8 @@ Git merge <branch_name>
 You can do this with
 Git checkout <branch_name>
 
+8.	Push : lets you  put code on  a branch
+To push files to the master branch use
+Git push -u origin master
+
 
