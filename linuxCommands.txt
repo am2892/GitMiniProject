@@ -28,7 +28,10 @@ Linux Commands: Definitions and Examples
 	move file task1.txt to directory backup: mv task1.txt backup
 	move directory test to directory backup: mv test backup
 
-7.
+7. rm - "remove" - the rm command can be used to delete files. You would use this if you dont want to have a file anymore
+	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
+	remove directory test: rm test
+	remove file task2.txt: rm task2.txt
 
 8.
 
