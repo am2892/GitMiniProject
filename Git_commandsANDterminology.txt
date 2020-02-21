@@ -5,4 +5,6 @@ To make a new repository go to the top right of the website and click on your pr
 To do this you would find a repository that you want to use and use the command
 git clone <repo_link>
 
+3.	Fork : is when you create and new Branch from some elses repository 
+To do this click on fork on the top right of the repository in github to be given a link for your branch.
 
