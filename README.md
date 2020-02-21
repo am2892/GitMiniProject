@@ -22,6 +22,10 @@ Monday, February 24, 2020
 
 -[Git Commands and Terminology ](https://github.com/am2892/GitMiniProject/blob/master/Git_commandsANDterminology.txt)
 
+-[Change Log](https://github.com/am2892/GitMiniProject/blob/master/Change_log.md)
+
+-[Technical Log](https://github.com/am2892/GitMiniProject/blob/master/technicalLog.md)
+
 ***Videos***
 
 [Helpful video #1](https://www.youtube.com/watch?v=SwK2dPFXhpU&feature=emb_logo)
