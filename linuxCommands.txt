@@ -53,4 +53,9 @@ Linux Commands: Definitions and Examples
 	move task1.txt to backup: typing the "mv" command and typing "task1" while hitting the tab button will auto-populate task2.txt; then you would type backup
 	cp backup to test: typing the "cp" command and typing "ba" while hitting the tab button will auto-populate backup; then you would type test
 
-12.
+12. Using up and down arrow for history - using the up and down arrow keys can be used when you have to use the same line of code over and over again 
+	EXAMPLE: assume the following last 3 commands - 
+	165  git add linuxCommands.txt 
+  	166  git commit -m "FEATURE: Added definition and example for the tab feature"
+  	167  nano linuxCommands.txt
+	Instead of having to re-type these following commands endlessly; just hit the up arrow to arrive at the command that you've most recently used.
