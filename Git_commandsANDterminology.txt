@@ -41,4 +41,5 @@ git remote add origin <branch_url>.git
 To see your status use
 git status
 
+12.	Master Branch : this is were the live code goes
 
