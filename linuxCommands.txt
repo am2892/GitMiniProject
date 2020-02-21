@@ -38,8 +38,12 @@ Linux Commands: Definitions and Examples
 	typing history would reveal ALL of the commands that were entered in the command line since the beginning of the session;
 	typing history (x; where x is any whole number) would reveal the last x commands	
 
-9.
-
+9. Home directory and ~ -  the ~ is short hand for the Home directory. You can also use the ~ to find the home directory
+	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
+	move task1.txt to your home directory: mv task1.txt ~
+	copy task2.txt to your home directory: cp task2.txt ~
+	change to your home directory: cd ~
+	
 10.
 
 11.
