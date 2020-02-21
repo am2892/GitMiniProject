@@ -1,0 +1,3 @@
+1.	Repository : is the place were the code is stored in github
+To make a new repository go to the top right of the website and click on your profile picture, next click on the option that says your repository , lastly click on the box that says new after that you will be on the page that will let you make repositories.
+
