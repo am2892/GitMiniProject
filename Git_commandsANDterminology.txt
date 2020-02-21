@@ -1,0 +1,45 @@
+1.	Repository : is the place were the code is stored in github 
+To make a new repository go to the top right of the website and click on your profile picture, next click on the option that says your repository , lastly click on the box that says new after that you will be on the page that will let you make repositories.
+
+2.	Clone : is what you do when you want to copy code from the repository to another machine  
+To do this you would find a repository that you want to use and use the command
+git clone <repo_link>
+
+3.	Fork : is when you create and new Branch from some elses repository 
+To do this click on fork on the top right of the repository in github to be given a link for your branch.
+
+4.	Branch : is were you separate code from the live version 
+To make a new branch you would do
+Git branch <branch_name>   
+
+5.	Commit : is used when you want to add something  to your code 
+To use Commit write
+git commit -m <your notes>
+use -m <your notes> to keep track of your changes
+
+6.	Merge : lets you put the code from your branch to the master branch 
+To merge another branch with the current branch use
+Git merge <branch_name>
+
+7.	Checkout : allows you to switch between branches
+You can do this with
+Git checkout <branch_name>
+
+8.	Push : lets you  put code on  a branch
+To push files to the master branch use
+Git push -u origin master
+
+9.	Pull : lets you get code from a branch
+To get files from another branch use
+git pull <branch_url> master
+
+10.	Remote Add / Remove / Show : you use these command to interact with the repository 
+Show git were to push and pull files with 
+git remote add origin <branch_url>.git
+
+11.	Status : let you see whats going on.
+To see your status use
+git status
+
+12.	Master Branch : this is were the live code goes
+
