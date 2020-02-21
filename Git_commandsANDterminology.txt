@@ -12,3 +12,9 @@ To do this click on fork on the top right of the repository in github to be give
 To make a new branch you would do
 Git branch <branch_name>   
 
+5.	Commit : is used when you want to add something  to your code 
+To use Commit write
+git commit -m <your notes>
+use -m <your notes> to keep track of your changes
+
+
