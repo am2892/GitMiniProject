@@ -17,4 +17,7 @@ To use Commit write
 git commit -m <your notes>
 use -m <your notes> to keep track of your changes
 
+6.	Merge : lets you put the code from your branch to the master branch 
+To merge another branch with the current branch use
+Git merge <branch_name>
 
