@@ -12,7 +12,11 @@ Linux Commands: Definitions and Examples
 	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
 	copy a file: cp task1.txt newTask1.txt
 	copy a directory: cp -r test backup
-4.
+
+4. pwd - "print working directory" - the pwd command shows the current directory, you would do this to find out where you are in the computer
+	EXAMPLE: current directory - /home/user/IS601/assignments
+	typing "pwd" in the command line would yield:
+	/home/user/IS601/assignments
 
 5.
 
