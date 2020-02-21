@@ -48,6 +48,9 @@ Linux Commands: Definitions and Examples
 	EXAMPLE: current directory: home/user/IS601/
 	copy IS601 to /home/user/IS601/assignments/Project1: cp IS601 /assignments/Project1
 
-11.
+11. Using the tab key to complete file paths - using tab can help you type faster because it helps to finish long lines
+	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
+	move task1.txt to backup: typing the "mv" command and typing "task1" while hitting the tab button will auto-populate task2.txt; then you would type backup
+	cp backup to test: typing the "cp" command and typing "ba" while hitting the tab button will auto-populate backup; then you would type test
 
 12.
