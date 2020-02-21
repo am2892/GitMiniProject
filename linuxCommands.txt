@@ -18,7 +18,10 @@ Linux Commands: Definitions and Examples
 	typing "pwd" in the command line would yield:
 	/home/user/IS601/assignments
 
-5.
+5. ls - "list" - the ls command lets you see the different files and directory in a location, You would use this command to see what are the files that you can access in the directory you are in
+	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
+	typing ls would yield:
+	backup    task1.txt    task2.txt    test
 
 6.
 
