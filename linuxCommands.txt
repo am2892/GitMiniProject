@@ -44,7 +44,9 @@ Linux Commands: Definitions and Examples
 	copy task2.txt to your home directory: cp task2.txt ~
 	change to your home directory: cd ~
 	
-10.
+10. file paths in linux - the file paths are used in conjuction with commands, specifically if the user in not in a destination directory.
+	EXAMPLE: current directory: home/user/IS601/
+	copy IS601 to /home/user/IS601/assignments/Project1: cp IS601 /assignments/Project1
 
 11.
 
