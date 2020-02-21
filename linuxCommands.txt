@@ -33,7 +33,10 @@ Linux Commands: Definitions and Examples
 	remove directory test: rm test
 	remove file task2.txt: rm task2.txt
 
-8.
+8. history - the history command will show all your pass inputs in the terminal. You would use this command to show someone what you did.
+	EXAMPLE: 
+	typing history would reveal ALL of the commands that were entered in the command line since the beginning of the session;
+	typing history (x; where x is any whole number) would reveal the last x commands	
 
 9.
 
