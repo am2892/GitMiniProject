@@ -11,6 +11,7 @@ Monday, February 24, 2020
 ***Mini Project 1: GIT***
 
 ***Index***
+
 -[The README file](https://github.com/am2892/GitMiniProject/blob/master/README.md)
 
 -[Productivity](https://github.com/am2892/GitMiniProject/blob/master/Git_Productivity.txt)
@@ -21,6 +22,7 @@ Monday, February 24, 2020
 
 -[Git Commands and Terminology ](https://github.com/am2892/GitMiniProject/blob/master/Git_commandsANDterminology.txt)
 
+***Videos***
 
 [Helpful video #1](https://www.youtube.com/watch?v=SwK2dPFXhpU&feature=emb_logo)
 
