@@ -23,7 +23,10 @@ Linux Commands: Definitions and Examples
 	typing ls would yield:
 	backup    task1.txt    task2.txt    test
 
-6.
+6. mv - "move" - the mv command can be used to move files and directories, you wold use this if you needed your files to be somewhere else
+	EXAMPLE: current directory - home/user/IS601/assignments/Project1; current directories and files - test, backup task1.txt, task2.txt
+	move file task1.txt to directory backup: mv task1.txt backup
+	move directory test to directory backup: mv test backup
 
 7.
 
