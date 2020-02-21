@@ -8,3 +8,7 @@ git clone <repo_link>
 3.	Fork : is when you create and new Branch from some elses repository 
 To do this click on fork on the top right of the repository in github to be given a link for your branch.
 
+4.	Branch : is were you separate code from the live version 
+To make a new branch you would do
+Git branch <branch_name>   
+
