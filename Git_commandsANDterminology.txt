@@ -21,3 +21,8 @@ use -m <your notes> to keep track of your changes
 To merge another branch with the current branch use
 Git merge <branch_name>
 
+7.	Checkout : allows you to switch between branches
+You can do this with
+Git checkout <branch_name>
+
+
