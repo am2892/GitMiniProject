@@ -1,5 +1,5 @@
 
--How Python uses Indentation to control Flow: Python uses whitespace (i.e. indentation) to delimit scope. Python’s syntax is quite flexible in terms of what it defines as a whitespace delimiter. Its rules are that one or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. and that a given indented block must use a uniform level of indentation. E.g. if the first line of an indented block has two leading spaces, all subsequent lines in that block must lead with exactly two white spaces. Also, the standard style for indenting in Python is to use four space characters for each level of indentation.
+1. How Python uses Indentation to control Flow: Python uses whitespace (i.e. indentation) to delimit scope. Python’s syntax is quite flexible in terms of what it defines as a whitespace delimiter. Its rules are that one or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. and that a given indented block must use a uniform level of indentation. E.g. if the first line of an indented block has two leading spaces, all subsequent lines in that block must lead with exactly two white spaces. Also, the standard style for indenting in Python is to use four space characters for each level of indentation.
 
 Example: 
 # example showing that Python uses whitespace to delimit scope
@@ -11,9 +11,9 @@ if x > 10:
 # we are outside of the if-block; there are no leading whitespace characters
 x = x + 3
 
-
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 	
--Don't Repeat Yourself: DRY is a basic principle of software development aimed at reducing repetition of information. The DRY principle is stated as, "Every piece of knowledge or logic must have a single, unambiguous representation within a system."
+2. Don't Repeat Yourself: DRY is a basic principle of software development aimed at reducing repetition of information. The DRY principle is stated as, "Every piece of knowledge or logic must have a single, unambiguous representation within a system."
 
 Example:
 def bmi_calc(sub_num, weight_kg, height_m):
@@ -30,11 +30,11 @@ subjects =[[1, 80, 1.62], # subject1
            [5, 72, 1.60]] # subject5
 
 for sub in subjects:
-   		    bmi_calc(sub[0], sub[1], sub[2])  
+	bmi_calc(sub[0], sub[1], sub[2])  
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Design Patterns from Gang of Four: GoF is actually a commonly used acronym that stands for Gang of Four. The Gang of Four refers to the four authors of the popular book on design patterns called “Design Patterns: Elements of Reusable Object-Oriented Software”. This book is considered to be the bible on design patterns in software engineering. Often, GoF is just used to refer to the book itself, and not the actual authors of the book. GOF is divided into three parts and each part describes the patterns related to the theme of the part. The themes describe the purpose of the patterns. Creational patterns address object instantiation issues. Structural patterns concentrate on object composition and their relations in the runtime object structures. Whereas the structural patterns describe the layout of the object system, the behavioral patterns focus on the internal dynamics and object interaction in the system. Design patterns are a common way of solving well known problems. Two main principles are in the bases of the design patterns defined by the GOF: Program to an interface not an implementation and Favor object composition over inheritance.
+3. Design Patterns from Gang of Four: GoF is actually a commonly used acronym that stands for Gang of Four. The Gang of Four refers to the four authors of the popular book on design patterns called “Design Patterns: Elements of Reusable Object-Oriented Software”. This book is considered to be the bible on design patterns in software engineering. Often, GoF is just used to refer to the book itself, and not the actual authors of the book. GOF is divided into three parts and each part describes the patterns related to the theme of the part. The themes describe the purpose of the patterns. Creational patterns address object instantiation issues. Structural patterns concentrate on object composition and their relations in the runtime object structures. Whereas the structural patterns describe the layout of the object system, the behavioral patterns focus on the internal dynamics and object interaction in the system. Design patterns are a common way of solving well known problems. Two main principles are in the bases of the design patterns defined by the GOF: Program to an interface not an implementation and Favor object composition over inheritance.
 
 Example: (Python Facade design pattern example)
 
@@ -53,9 +53,9 @@ class Car(object):
     def fuel_level(self):
         return self._tank.level
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Class: A Class is like an object constructor, or a "blueprint" for creating objects. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.
+4. Class: A Class is like an object constructor, or a "blueprint" for creating objects. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.
 
 Example:
 class Person:
@@ -68,9 +68,9 @@ p1 = Person("Mia", 24)
 print(p1.name)
 print(p1.age)
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Object: An object is simply a collection of data (variables) and methods (functions) that act on those data. Also, an object is an instance of a class. This is the realized version of the class, where the class is manifested in the program. 
+5. Object: An object is simply a collection of data (variables) and methods (functions) that act on those data. Also, an object is an instance of a class. This is the realized version of the class, where the class is manifested in the program. 
 
 Example: 
 
@@ -85,9 +85,9 @@ class Person:
 p1 = Person("Joe", 32)
 p1.myfunc()
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Static: Static methods in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class. This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it.
+6. Static: Static methods in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class. This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it.
 
 Example:
 
@@ -101,9 +101,9 @@ Calculator.multiplyNums = staticmethod(Calculator.multiplyNums)
 
 print('Product:', Calculator.multiplyNums(15, 110))
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Property: The property() method in Python provides an interface to instance attributes. It encapsulates instance attributes and provides a property. The property() method takes the get, set and delete methods as arguments and returns an object of the property class.
+7. Property: The property() method in Python provides an interface to instance attributes. It encapsulates instance attributes and provides a property. The property() method takes the get, set and delete methods as arguments and returns an object of the property class.
 
 Example:
 class person: 
@@ -119,9 +119,9 @@ print('delname() called')
 del self.__name 
 name=property(getname, setname, delname)
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Attribute: Everything in Python is an object, and almost everything has attributes and methods. In python, functions too are objects. So they have attributes like other objects. All functions have a built-in attribute __doc__, which returns the doc string defined in the function source code. We can also assign new attributes to them, as well as retrieve the values of those attributes. For handling attributes, Python provides us with “getattr” and “setattr”, a function that takes three arguments. There is no difference between “setattr” and using the dot-notation on the left side of the = assignment operator.
+8. Attribute: Everything in Python is an object, and almost everything has attributes and methods. In python, functions too are objects. So they have attributes like other objects. All functions have a built-in attribute __doc__, which returns the doc string defined in the function source code. We can also assign new attributes to them, as well as retrieve the values of those attributes. For handling attributes, Python provides us with “getattr” and “setattr”, a function that takes three arguments. There is no difference between “setattr” and using the dot-notation on the left side of the = assignment operator.
 
 Example:
 def foo():
@@ -134,9 +134,9 @@ print(foo.gender)
 print(foo.name)
 print(foo.age)
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Method: A method is a function that belongs to an object. Method is called by its name, but it is associated with an object (dependent). A method is implicitly passed the object on which it is invoked. Also, It may or may not return any data and it can operate on the data (instance variables) that is contained by the corresponding class. In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on. 
+9. Method: A method is a function that belongs to an object. Method is called by its name, but it is associated with an object (dependent). A method is implicitly passed the object on which it is invoked. Also, It may or may not return any data and it can operate on the data (instance variables) that is contained by the corresponding class. In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on. 
 
 Example:
 # Python 3  User-Defined  Method
@@ -147,9 +147,9 @@ class ABC :
 class_ref = ABC() # object of ABC class
 class_ref.method_abc()
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Exception: Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal. Exceptions come in different types, and the type is printed as part of the message: the types in the example are ZeroDivisionError, NameError and TypeError. The string printed as the exception type is the name of the built-in exception that occurred. This is true for all built-in exceptions, but need not be true for user-defined exceptions (although it is a useful convention). Standard exception names are built-in identifiers (not reserved keywords).
+10. Exception: Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal. Exceptions come in different types, and the type is printed as part of the message: the types in the example are ZeroDivisionError, NameError and TypeError. The string printed as the exception type is the name of the built-in exception that occurred. This is true for all built-in exceptions, but need not be true for user-defined exceptions (although it is a useful convention). Standard exception names are built-in identifiers (not reserved keywords).
 
 Example:
 >>> 10 * (1/0)
@@ -165,9 +165,9 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: Can't convert 'int' object to str implicitly
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Unit Test: A unit test helps you to isolate what is broken in your application and fix it faster. Unit Testing is the first level of software testing where the smallest testable parts of a software are tested. This is used to validate that each unit of the software performs as designed.
+11. Unit Test: A unit test helps you to isolate what is broken in your application and fix it faster. Unit Testing is the first level of software testing where the smallest testable parts of a software are tested. This is used to validate that each unit of the software performs as designed.
 
 Example:
 # Python code to demonstrate working of unittest
@@ -209,9 +209,9 @@ class TestStringMethods(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Constructor: A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class. Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that the object will need when it starts. Constructors can also verify that there are enough resources for the object and perform any other start-up task you can think of. The name of a constructor is always the same, __init__(). The constructor can accept arguments when necessary to create the object. When you create a class without a constructor, Python automatically creates a default constructor for you that doesn’t do anything. Every class must have a constructor, even if it simply relies on the default constructor.
+12. Constructor: A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class. Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that the object will need when it starts. Constructors can also verify that there are enough resources for the object and perform any other start-up task you can think of. The name of a constructor is always the same, __init__(). The constructor can accept arguments when necessary to create the object. When you create a class without a constructor, Python automatically creates a default constructor for you that doesn’t do anything. Every class must have a constructor, even if it simply relies on the default constructor.
 
 Example:
 class Addition:
@@ -242,9 +242,9 @@ obj.calculate()
 # display result
 obj.display()
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Factory: Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. Factory Method defines a method, which should be used for creating objects instead of a direct constructor call ( new operator). Also, It separates the process of creating an object from the code that depends on the interface of the object.
+13. Factory: Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. Factory Method defines a method, which should be used for creating objects instead of a direct constructor call ( new operator). Also, It separates the process of creating an object from the code that depends on the interface of the object.
 
 Example:
 class SongSerializer:
@@ -276,9 +276,9 @@ class SongSerializer:
         artist.text = song.artist
         return et.tostring(song_element, encoding='unicode')
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Decorator: A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+14. Decorator: A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
 
 Example:
 def hello_decorator(func):
@@ -307,9 +307,9 @@ a, b = 1, 2
 # getting the value through return of the function
 print("Sum =", sum_two_numbers(a, b))
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Extend Class: In Python, when a subclass defines a function that already exists in its superclass in order to add some other functionality in its own way, the function in the subclass is said to be an extended method and the mechanism is known as extending. It is a way by which Python shows Polymorphism. A call from the instance of the subclass executes the subclass’s version of the function. To call superclass’s version super() method is used. The goal of extending a class method in Python can be achieved by Inheritance. One of the major advantages provided by extending a method is that it makes the code reusable. Further, multiple subclasses can share the same code and are even allowed to update it as per the requirement.
+15. Extend Class: In Python, when a subclass defines a function that already exists in its superclass in order to add some other functionality in its own way, the function in the subclass is said to be an extended method and the mechanism is known as extending. It is a way by which Python shows Polymorphism. A call from the instance of the subclass executes the subclass’s version of the function. To call superclass’s version super() method is used. The goal of extending a class method in Python can be achieved by Inheritance. One of the major advantages provided by extending a method is that it makes the code reusable. Further, multiple subclasses can share the same code and are even allowed to update it as per the requirement.
 
 Example:
 # definition of superclass "Triangles"
@@ -370,9 +370,9 @@ def main():
       
 main()
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--CSV Files: CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. For working CSV files in python, there is an inbuilt module called csv.
+16. CSV Files: CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. For working CSV files in python, there is an inbuilt module called csv.
 
 Example:
 # importing the csv module
@@ -403,9 +403,9 @@ with open(filename, 'w') as csvfile:
     # writing the data rows
     csvwriter.writerows(rows)
 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-
--Reading Files: The common methods to operate with files are open() to open a file, seek() to set the file's current position at the given offset, and close() to close the file object when you're done using it. The open() method returns a file handle that represents a file object to be used to access the file for reading, writing, or appending. When opening a file for reading, Python needs to know exactly how the file should be opened with the system. Two access modes are available - reading, and reading in binary mode. The respective flags used are r, and rb, and have to be specified when opening a file with the built-in open()method. The first mode includes the interpretation of special characters like "CR" (carriage return) and "LF" (linefeed) to represent line-breaks, whereas the binary mode allows you to read the data in raw mode - where the data is stored as is without further interpretation. Once you've opened a file, the open() method will return a file object to you. These file objects have methods like read(), readline(), write(), tell(), and seek(). While some file objects (or file-like objects) have more methods than those listed here, these are the most common. Not all file objects need to implement all of the file methods.
+17. Reading Files: The common methods to operate with files are open() to open a file, seek() to set the file's current position at the given offset, and close() to close the file object when you're done using it. The open() method returns a file handle that represents a file object to be used to access the file for reading, writing, or appending. When opening a file for reading, Python needs to know exactly how the file should be opened with the system. Two access modes are available - reading, and reading in binary mode. The respective flags used are r, and rb, and have to be specified when opening a file with the built-in open()method. The first mode includes the interpretation of special characters like "CR" (carriage return) and "LF" (linefeed) to represent line-breaks, whereas the binary mode allows you to read the data in raw mode - where the data is stored as is without further interpretation. Once you've opened a file, the open() method will return a file object to you. These file objects have methods like read(), readline(), write(), tell(), and seek(). While some file objects (or file-like objects) have more methods than those listed here, these are the most common. Not all file objects need to implement all of the file methods.
 
 Example:
 # define the name of the file to read from
